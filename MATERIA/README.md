@@ -2,7 +2,7 @@
 
 ## Exercícios:
 
- - [Lista I Love You 2](https://github.com/3rdglaz/0025/blob/main/MATERIA/LISTA%20I%20LOVE%20YOU.md)
+ - [Lista I Love You 2](https://github.com/3rdglaz/0025/blob/main/MATERIA/LISTA%20I%20LOVE%20YOU%202.md)
 
 ## Artigos:
 
