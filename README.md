@@ -5,6 +5,7 @@ Um github com o intuito de compartilhar artigos relacionados a matérias, soluç
  
  - [__Materia__](https://github.com/3rdglaz/0025/tree/main/MATERIA)
  - [__Professor__](https://github.com/3rdglaz/0025/tree/main/PROFESSOR)
+   - [JAM](https://github.com/3rdglaz/0025/tree/main/PROFESSOR/JAM)
  - [__Aluno__](https://github.com/3rdglaz/0025/tree/main/ALUNOS)
    - [Nicolas](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Nicolas)
    - [Caio](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Caio)
