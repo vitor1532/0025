@@ -5,7 +5,7 @@
 struct turma{
 char aluno[50];
 int turma, freq;
-float mediafreq, media_turma;
+float mediafreq, media_turma, nota;
 };
 
  
