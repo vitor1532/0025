@@ -15,3 +15,4 @@ Um github com o intuito de compartilhar artigos relacionados a matérias, soluç
 
    - [Thiago](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Thiago)
    - [Victor](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Victor)
+   - [Victor](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Victor)
