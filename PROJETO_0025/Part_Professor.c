@@ -5,7 +5,7 @@ struct professor
 {
     
     char nome[70],disciplina[5],endereco[100];
-      int cpf, telefone, sala, matricula;
+      int cpf, telefone, sala, matricula,slario;
 
 } prof[5];
 
