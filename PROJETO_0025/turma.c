@@ -15,7 +15,8 @@ struct turma_struct
 
 void main()
 {
-    // Vazio por enquanto
+    // Vazio 
+
 }
 
 
