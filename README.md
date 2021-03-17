@@ -12,11 +12,11 @@ Um github com o intuito de compartilhar artigos relacionados a matérias, soluç
    - [JAM](https://github.com/3rdglaz/0025/tree/main/PROFESSOR/JAM)
  
  - [__Alunos__](https://github.com/3rdglaz/0025/tree/main/ALUNOS)
+   
    - [Nicolas](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Nicolas)
    - [Caio](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Caio)
    - [Igor](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Igor)
    - [Marcelo](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Marcelo)
    - [Lhuiky](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Lhuiky)
-
    - [Thiago](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Thiago)
    - [Victor](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Victor)
