@@ -14,3 +14,4 @@ Um github com o intuito de compartilhar artigos relacionados a matérias, soluç
    - [Lhuiky](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Lhuiky)
 
    - [Thiago](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Thiago)
+   - [Victor](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Victor)
