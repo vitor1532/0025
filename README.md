@@ -4,9 +4,12 @@ Um github com o intuito de compartilhar artigos relacionados a matérias, soluç
 ## INDICE
  
  - [__Materia__](https://github.com/3rdglaz/0025/tree/main/MATERIA)
+ 
  - [__Professor__](https://github.com/3rdglaz/0025/tree/main/PROFESSOR)
+   
    - [JAM](https://github.com/3rdglaz/0025/tree/main/PROFESSOR/JAM)
- - [__Aluno__](https://github.com/3rdglaz/0025/tree/main/ALUNOS)
+ 
+ - [__Alunos__](https://github.com/3rdglaz/0025/tree/main/ALUNOS)
    - [Nicolas](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Nicolas)
    - [Caio](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Caio)
    - [Igor](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Igor)
