@@ -1,5 +1,5 @@
 # 0025
-Um github com o intuito de compartilhar artigos relacionados a matérias, soluções, codigos e conhecimento.
+Um repositório da turma 0025 com o intuito de compartilhar artigos relacionados a matérias, soluções, codigos e conhecimento.
 
 ## [__PROJETO 0025__](https://github.com/3rdglaz/0025/tree/main/PROJETO_0025)
 
