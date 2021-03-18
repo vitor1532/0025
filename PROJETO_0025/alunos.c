@@ -11,5 +11,4 @@ struct aluno
     int disciplina; //le se como UC
     int telefone;
     int matricula;
- printf ("teste");
 };
