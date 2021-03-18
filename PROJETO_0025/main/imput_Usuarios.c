@@ -12,7 +12,8 @@ int main ()
     //c[i].endereco.cidade
 
     //pegando o imput do usuario/aluno
-    while ( cont == 0){
+    while ( cont == 0)
+    {
         
         printf ("\nInsira o nome do %i aluno:\n", i +1);
           fflush(stdin);
@@ -91,6 +92,69 @@ int main ()
     printf ("\n%i",c[i].disciplina);
     printf ("\n%i",c[i].tel);
     printf ("\n%i",c[i].matricula);
+
+    
+
+    //---------------------------------------- cadastro de professor----------------------------------------------------
+    
+    //chamando a estrutura
+    struct Professor p[3];
+
+    i = 0;
+    cont = 0;
+
+        //pegando o imput do usuario/professor
+      while ( cont == 0)
+      {
+          
+          printf ("\n\n\nInsira o nome do %i Professor:\n", i +1);
+            fflush(stdin);
+            gets (p[i].nome);
+
+          printf ("\nInsira o CPF do Professor %s: \n",p[i].nome);
+            scanf ("%i", &p[i].cpf); 
+
+          printf ("\nInsira o telefone do Professor %s: \n",p[i].nome);
+            scanf ("%i", &p[i].tel);
+
+          printf ("\nInsira o salario do Professor %s: \n",p[i].nome);
+            scanf ("%f",p[i].sal);
+
+          printf ("\nInsira o ID do professor %s: \n",p[i].nome);
+            scanf ("%i",p[i].id);
+
+          printf ("\nE por ultimo nos informe a data de nascimento do professor %s \n",p[i].nome);
+
+            printf  ("\nDia: ");
+              scanf ("%i", &p[i].data.dia);
+
+            printf ("\nMes: ");
+              scanf ("%i", &p[i].data.mes);
+              
+            printf ("\nAno: ");
+              scanf ("%i", &p[i].data.ano);
+
+        //pedindo o usuario se deseja continuar cadastrando
+        printf ("\nDeseja continuar cadastrando os Alunos? < 1 - SIM > < 0 - NAO >: \n");
+          scanf ("%i", &aux);
+            
+            if (aux == 0)
+            {
+              break;
+            }
+      }
+
+
+      //teste de funcionalidade
+    printf ("\n%s",p[i].nome);
+    printf ("\n%i",p[i].cpf);
+    printf ("\n%i",p[i].data.dia);
+    printf ("\n%i",p[i].data.mes);
+    printf ("\n%i",p[i].data.ano);
+    printf ("\n%i",p[i].tel);
+    printf ("\n%.2f",p[i].sal);
+    
+
 
   return 0;
 }

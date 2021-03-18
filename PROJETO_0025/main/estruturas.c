@@ -34,7 +34,7 @@ struct Professor // originalmente as variaveis estavam todas numa linha, formate
     char nome[70];
     int cpf;
     int tel;
-    int sal;
+    float sal;
     int id;
     struct Data data;
 }; // aqui pode receber o
