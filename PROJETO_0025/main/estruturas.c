@@ -3,9 +3,9 @@
 
 struct Endereco // endereço não recebe variavel isolada
 {
-    char Cidade[200];
-    char Bairro[200];
-    char Rua[200];
+    char cidade[200];
+    char bairro[200];
+    char rua[200];
     int num;
     char complemento[20];
 };
