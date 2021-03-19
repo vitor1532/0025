@@ -22,3 +22,4 @@ Um repositório da turma 0025 com o intuito de compartilhar artigos relacionados
    - [Lhuiky](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Lhuiky)
    - [Thiago](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Thiago)
    - [Victor](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Victor)
+   - [Lucas](https://github.com/3rdglaz/0025/tree/main/ALUNOS/Lucas)
