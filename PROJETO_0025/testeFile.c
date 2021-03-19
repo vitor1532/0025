@@ -42,8 +42,5 @@ void main()
         {
             fclose(file);
         }
-        }while(y != 2);
-    
+    }while(y != 2);   
 }
-    
-
