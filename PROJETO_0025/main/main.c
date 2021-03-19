@@ -2,11 +2,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "estruturas.c"
 #include "input_Usuarios.c"
 
-void main()
+int main()
 {
-    printf("isso e um teste");
-    usuarios();
+
+    Cadastro();
+
+return 0;
 }

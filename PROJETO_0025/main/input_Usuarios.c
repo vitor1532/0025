@@ -2,17 +2,17 @@
 #include <stdlib.h>
 #include "estruturas.c"
 
-void Cadastro(int i,int cont,int aux,int y, FILE *file)
+void Cadastro(void)
 {
   //definindo vetor da strutura Aluno
   struct Aluno c[2];
 
-  i = 0, cont = 0, aux = 0, y  = 0;
+  int i = 0, cont = 0, aux = 0, y  = 0;
   //c[i].endereco.cidade
 
   //FILE *file;
 
-  //pegando o imput do usuario/aluno
+  //pegando o input do usuario/aluno
   while (cont == 0)
   {
 
@@ -23,7 +23,7 @@ void Cadastro(int i,int cont,int aux,int y, FILE *file)
     printf("\nInsira o CPF do aluno %s: \n", c[i].nome);
     scanf("%i", &c[i].cpf);
 
-    printf("\nInsira o endereco do aluno %s \n", c[i].nome);
+    printf("\nInsira o endereco do aluno %s", c[i].nome);
 
     printf("\nCidade: \n");
     fflush(stdin);
@@ -40,7 +40,7 @@ void Cadastro(int i,int cont,int aux,int y, FILE *file)
     printf("\nNumero: \n");
     scanf("%i", &c[i].endereco.num);
 
-    printf("\nInsira a data de nascimento do aluno %s \n", c[i].nome);
+    printf("\nInsira a data de nascimento do aluno %s", c[i].nome);
 
     printf("\nDia: ");
     scanf("%i", &c[i].data.dia);
@@ -98,7 +98,7 @@ void Cadastro(int i,int cont,int aux,int y, FILE *file)
       printf("\n%i", c[i].matricula);
   }
   //---------------------------------------- cadastro de professor----------------------------------------------------
-
+  
   //chamando a estrutura
   struct Professor p[3];
 
@@ -106,7 +106,7 @@ void Cadastro(int i,int cont,int aux,int y, FILE *file)
   cont = 0;
   y=0;
 
-  //pegando o imput do usuario/professor
+  //pegando o input do usuario/professor
   while (cont == 0)
   {
 
@@ -126,7 +126,7 @@ void Cadastro(int i,int cont,int aux,int y, FILE *file)
     printf("\nInsira o ID do professor %s: \n", p[i].nome);
     scanf("%i", &p[i].id);
 
-    printf("\nE por ultimo nos informe a data de nascimento do professor %s \n", p[i].nome);
+    printf("\nE por ultimo nos informe a data de nascimento do professor %s", p[i].nome);
 
     printf("\nDia: ");
     scanf("%i", &p[i].data.dia);
