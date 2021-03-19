@@ -78,7 +78,7 @@ void Aluno(void)
     i++;
   }
   //atribuindo o tamanho de i para y para colocar na condicao do for
-  y = i;
+  y = i + 1;
 
   for (i = 0; i < y; i++)
   {
@@ -149,7 +149,7 @@ void Aluno(void)
       i++;
     }
     //atribuindo o tamanho de i para y para colocar na condicao do for
-    y = i;
+    y = i + 1;
 
     for (i = 0; i < y; i++)
     {
