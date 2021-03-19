@@ -8,8 +8,12 @@ int main ()
     struct Aluno c[2];
     
    
-      int i = 0,cont = 0,aux =0;
+      int i = 0,cont = 0,aux =0,y = 0;
     //c[i].endereco.cidade
+
+        printf ("\n---------------------------------------------\n");
+        printf ("                Cadastro Aluno");
+        printf ("\n---------------------------------------------\n");
 
     //pegando o imput do usuario/aluno
     while ( cont == 0)
@@ -75,24 +79,29 @@ int main ()
 
      //incrementando o vetor
      i++;
+     
 
     }
-
-   //teste de funcionalidade
-    printf ("\n%s",c[i].nome);
-    printf ("\n%i",c[i].cpf);
-    printf ("\n%s",c[i].endereco.cidade);
-    printf ("\n%s",c[i].endereco.bairro);
-    printf ("\n%s",c[i].endereco.rua);
-    printf ("\n%i",c[i].endereco.num);
-    printf ("\n%i",c[i].data.dia);
-    printf ("\n%i",c[i].data.mes);
-    printf ("\n%i",c[i].data.ano);
-    printf ("\n%s",c[i].curso);
-    printf ("\n%i",c[i].disciplina);
-    printf ("\n%i",c[i].tel);
-    printf ("\n%i",c[i].matricula);
-
+    //pegando o tamanho do i para colocar na condição do for
+    y = i;
+      //teste de funcionalidade
+      for (i = 0; i < y; i ++)
+      {
+          
+          printf ("\n%s",c[i].nome);
+          printf ("\n%i",c[i].cpf);
+          printf ("\n%s",c[i].endereco.cidade);
+          printf ("\n%s",c[i].endereco.bairro);
+          printf ("\n%s",c[i].endereco.rua);
+          printf ("\n%i",c[i].endereco.num);
+          printf ("\n%i",c[i].data.dia);
+          printf ("\n%i",c[i].data.mes);
+          printf ("\n%i",c[i].data.ano);
+          printf ("\n%s",c[i].curso);
+          printf ("\n%i",c[i].disciplina);
+          printf ("\n%i",c[i].tel);
+          printf ("\n%i",c[i].matricula);
+      }
     
 
     //---------------------------------------- cadastro de professor----------------------------------------------------
@@ -102,10 +111,16 @@ int main ()
 
     i = 0;
     cont = 0;
+    y = 0;
+
+        printf ("\n---------------------------------------------\n");
+        printf ("              Cadastro Professor");
+        printf ("\n---------------------------------------------\n");
 
         //pegando o imput do usuario/professor
       while ( cont == 0)
       {
+           
           
           printf ("\n\n\nInsira o nome do %i Professor:\n", i +1);
             fflush(stdin);
@@ -146,16 +161,22 @@ int main ()
         i++;
       }
 
+    //pegando o tamanho do i para colocar na condição do for
+    y = i;
     
-      //teste de funcionalidade
-    printf ("\n%s",p[i].nome);
-    printf ("\n%i",p[i].cpf);
-    printf ("\n%i",p[i].data.dia);
-    printf ("\n%i",p[i].data.mes);
-    printf ("\n%i",p[i].data.ano);
-    printf ("\n%i",p[i].tel);
-    printf ("\n%.2f",p[i].sal);
-    
+       //teste de funcionalidade   
+      for (i =0; i < y; i++)
+      {
+         
+        printf ("\n%s",p[i].nome);
+        printf ("\n%i",p[i].cpf);
+        printf ("\n%i",p[i].data.dia);
+        printf ("\n%i",p[i].data.mes);
+        printf ("\n%i",p[i].data.ano);
+        printf ("\n%i",p[i].tel);
+        printf ("\n%.2f",p[i].sal);
+
+      }
 
 
   return 0;
