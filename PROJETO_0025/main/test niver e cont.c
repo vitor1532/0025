@@ -12,7 +12,8 @@ void main ()
 {
     int i,cont, dia, ano;
     char mes[10];
-
+    
+    //inserir o numero de pessoas cadastradas
     printf("Digite o numero de cadastros: ");
     scanf("%d",&cont);
 
@@ -20,6 +21,7 @@ void main ()
 
     struct individuo pessoa [cont];
 
+    //inserir a data que ta sendo feito os cadastros
     printf("Digite a data de hoje (dia,mes e ano)\nDIA>> ");
     scanf("%d",&dia);
     printf("\nMES>> ");
@@ -30,6 +32,7 @@ void main ()
 
     system("cls");
 
+    //o cadastro do pessoal
     for(i=0;i<cont;i++){
         printf("Digite o nome da %d pessoa: ",i+1);
         fflush(stdin);
@@ -46,6 +49,7 @@ void main ()
         system("cls");
 
     }
+        //os dados printados e se o dia e mes bater dá um parabens
         for(i=0;i<cont;i++){
                 printf("Nome: %s",pessoa[i].nome);
                 printf("\nData de nascimento: %d de %s de %d",pessoa[i].dia,pessoa[i].mes,pessoa[i].ano);
