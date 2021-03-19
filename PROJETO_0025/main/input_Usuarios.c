@@ -97,6 +97,7 @@ void Aluno(void)
     printf("\n%i", c[i].tel);
     printf("\n%i", c[i].matricula);
   }
+}
   //---------------------------------------- cadastro de professor----------------------------------------------------
 
   void Professor(void)
@@ -163,4 +164,3 @@ void Aluno(void)
       printf("\n%.2f", p[i].sal);
     }
   }
-}
