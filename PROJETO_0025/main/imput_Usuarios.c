@@ -118,10 +118,10 @@ int main ()
             scanf ("%i", &p[i].tel);
 
           printf ("\nInsira o salario do Professor %s: \n",p[i].nome);
-            scanf ("%f",p[i].sal);
+            scanf ("%f",&p[i].sal);
 
           printf ("\nInsira o ID do professor %s: \n",p[i].nome);
-            scanf ("%i",p[i].id);
+            scanf ("%i",&p[i].id);
 
           printf ("\nE por ultimo nos informe a data de nascimento do professor %s \n",p[i].nome);
 
@@ -142,9 +142,11 @@ int main ()
             {
               break;
             }
+
+        i++;
       }
 
-
+    
       //teste de funcionalidade
     printf ("\n%s",p[i].nome);
     printf ("\n%i",p[i].cpf);
