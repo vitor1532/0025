@@ -2,13 +2,15 @@
 #include <stdlib.h>
 #include "estruturas.c"
 
-int main()
+void Cadastro(int i,int cont,int aux,int y, FILE *file)
 {
   //definindo vetor da strutura Aluno
   struct Aluno c[2];
 
-  int i = 0, cont = 0, aux = 0, y  =0;
+  i = 0, cont = 0, aux = 0, y  = 0;
   //c[i].endereco.cidade
+
+  //FILE *file;
 
   //pegando o imput do usuario/aluno
   while (cont == 0)
@@ -162,5 +164,4 @@ int main()
     printf("\n%.2f", p[i].sal);
 
   }
-  return 0;
 }
