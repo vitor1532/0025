@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include "estruturas.c"
 
-void Cadastro(void)
+void Aluno(void)
 {
   //definindo vetor da strutura Aluno
   struct Aluno c[2];
 
-  int i = 0, cont = 0, aux = 0, y  = 0;
+  int i = 0, cont = 0, aux = 0, y = 0;
   //c[i].endereco.cidade
 
   //FILE *file;
@@ -82,86 +82,85 @@ void Cadastro(void)
 
   for (i = 0; i < y; i++)
   {
-      //teste de funcionalidade
-      printf("\n%s", c[i].nome);
-      printf("\n%i", c[i].cpf);
-      printf("\n%s", c[i].endereco.cidade);
-      printf("\n%s", c[i].endereco.bairro);
-      printf("\n%s", c[i].endereco.rua);
-      printf("\n%i", c[i].endereco.num);
-      printf("\n%i", c[i].data.dia);
-      printf("\n%i", c[i].data.mes);
-      printf("\n%i", c[i].data.ano);
-      printf("\n%s", c[i].curso);
-      printf("\n%i", c[i].disciplina);
-      printf("\n%i", c[i].tel);
-      printf("\n%i", c[i].matricula);
+    //teste de funcionalidade
+    printf("\n%s", c[i].nome);
+    printf("\n%i", c[i].cpf);
+    printf("\n%s", c[i].endereco.cidade);
+    printf("\n%s", c[i].endereco.bairro);
+    printf("\n%s", c[i].endereco.rua);
+    printf("\n%i", c[i].endereco.num);
+    printf("\n%i", c[i].data.dia);
+    printf("\n%i", c[i].data.mes);
+    printf("\n%i", c[i].data.ano);
+    printf("\n%s", c[i].curso);
+    printf("\n%i", c[i].disciplina);
+    printf("\n%i", c[i].tel);
+    printf("\n%i", c[i].matricula);
   }
   //---------------------------------------- cadastro de professor----------------------------------------------------
-  
-  //chamando a estrutura
-  struct Professor p[3];
 
-  i = 0;
-  cont = 0;
-  y=0;
-
-  //pegando o input do usuario/professor
-  while (cont == 0)
+  void Professor(void)
   {
+    int i = 0, cont = 0, aux = 0, y = 0;
+    //chamando a estrutura
+    struct Professor p[3];
 
-    printf("\n\n\nInsira o nome do %i Professor:\n", i + 1);
-    fflush(stdin);
-    gets(p[i].nome);
-
-    printf("\nInsira o CPF do Professor %s: \n", p[i].nome);
-    scanf("%i", &p[i].cpf);
-
-    printf("\nInsira o telefone do Professor %s: \n", p[i].nome);
-    scanf("%i", &p[i].tel);
-
-    printf("\nInsira o salario do Professor %s: \n", p[i].nome);
-    scanf("%f", &p[i].sal);
-
-    printf("\nInsira o ID do professor %s: \n", p[i].nome);
-    scanf("%i", &p[i].id);
-
-    printf("\nE por ultimo nos informe a data de nascimento do professor %s", p[i].nome);
-
-    printf("\nDia: ");
-    scanf("%i", &p[i].data.dia);
-
-    printf("\nMes: ");
-    scanf("%i", &p[i].data.mes);
-
-    printf("\nAno: ");
-    scanf("%i", &p[i].data.ano);
-
-    //pedindo o usuario se deseja continuar cadastrando
-    printf("\nDeseja continuar cadastrando os Alunos? < 1 - SIM > < 0 - NAO >: \n");
-    scanf("%i", &aux);
-
-    if (aux == 0)
+    //pegando o input do usuario/professor
+    while (cont == 0)
     {
-      break;
+
+      printf("\n\n\nInsira o nome do %i Professor:\n", i + 1);
+      fflush(stdin);
+      gets(p[i].nome);
+
+      printf("\nInsira o CPF do Professor %s: \n", p[i].nome);
+      scanf("%i", &p[i].cpf);
+
+      printf("\nInsira o telefone do Professor %s: \n", p[i].nome);
+      scanf("%i", &p[i].tel);
+
+      printf("\nInsira o salario do Professor %s: \n", p[i].nome);
+      scanf("%f", &p[i].sal);
+
+      printf("\nInsira o ID do professor %s: \n", p[i].nome);
+      scanf("%i", &p[i].id);
+
+      printf("\nE por ultimo nos informe a data de nascimento do professor %s", p[i].nome);
+
+      printf("\nDia: ");
+      scanf("%i", &p[i].data.dia);
+
+      printf("\nMes: ");
+      scanf("%i", &p[i].data.mes);
+
+      printf("\nAno: ");
+      scanf("%i", &p[i].data.ano);
+
+      //pedindo o usuario se deseja continuar cadastrando
+      printf("\nDeseja continuar cadastrando os Alunos? < 1 - SIM > < 0 - NAO >: \n");
+      scanf("%i", &aux);
+
+      if (aux == 0)
+      {
+        break;
+      }
+
+      i++;
     }
+    //atribuindo o tamanho de i para y para colocar na condicao do for
+    y = i;
 
-    i++;
-  }
-//atribuindo o tamanho de i para y para colocar na condicao do for
-  y =i;
+    for (i = 0; i < y; i++)
+    {
 
-  for (i = 0; i < y; i++)
-  {
-
-    //teste de funcionalidade
-    printf("\n%s", p[i].nome);
-    printf("\n%i", p[i].cpf);
-    printf("\n%i", p[i].data.dia);
-    printf("\n%i", p[i].data.mes);
-    printf("\n%i", p[i].data.ano);
-    printf("\n%i", p[i].tel);
-    printf("\n%.2f", p[i].sal);
-
+      //teste de funcionalidade
+      printf("\n%s", p[i].nome);
+      printf("\n%i", p[i].cpf);
+      printf("\n%i", p[i].data.dia);
+      printf("\n%i", p[i].data.mes);
+      printf("\n%i", p[i].data.ano);
+      printf("\n%i", p[i].tel);
+      printf("\n%.2f", p[i].sal);
+    }
   }
 }
