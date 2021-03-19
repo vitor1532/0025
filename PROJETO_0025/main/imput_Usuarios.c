@@ -22,7 +22,7 @@ int main ()
         printf ("\nInsira o CPF do aluno %s: \n",c[i].nome);
           scanf ("%i", &c[i].cpf);
 
-        printf ("\nInsira o endereco do aluno %s: \n",c[i].nome);
+        printf ("\nInsira o endereco do aluno %s \n",c[i].nome);
 
             printf ("\nCidade: \n");
               fflush(stdin);
