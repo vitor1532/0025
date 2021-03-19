@@ -98,7 +98,11 @@ void Aluno(void)
     printf("\n%i", c[i].matricula);
   }
 }
+<<<<<<< HEAD
 //---------------------------------------- cadastro de professor----------------------------------------------------
+=======
+  //---------------------------------------- cadastro de professor----------------------------------------------------
+>>>>>>> 338cf8a0589180bef6e2cacce14f0e3208c4b0e3
 
 void Professor(void)
 {
@@ -145,6 +149,11 @@ void Professor(void)
     {
       break;
     }
+<<<<<<< HEAD
+=======
+    //atribuindo o tamanho de i para y para colocar na condicao do for
+    y = i + 1;
+>>>>>>> 338cf8a0589180bef6e2cacce14f0e3208c4b0e3
 
     i++;
   }
@@ -163,5 +172,8 @@ void Professor(void)
     printf("\n%i", p[i].tel);
     printf("\n%.2f", p[i].sal);
   }
+<<<<<<< HEAD
 }
 // falta organizar o print para arquivo
+=======
+>>>>>>> 338cf8a0589180bef6e2cacce14f0e3208c4b0e3
