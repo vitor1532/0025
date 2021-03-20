@@ -19,7 +19,9 @@ if code == 0:
 
 elif code == 1:
     print("Insira numeros para somar")
-    num = input()
+    num = int(input("Digite 1 num: "))
+    num2 = int(input("Digite 2 num: "))
+    print("O total deu: ", num+num2)
     menu()
 
 elif code == 2:
