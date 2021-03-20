@@ -140,7 +140,7 @@ void Professor(void)
     scanf("%i", &p[i].data.ano);
 
     //pedindo o usuario se deseja continuar cadastrando
-    printf("\nDeseja continuar cadastrando os Alunos? < 1 - SIM > < 0 - NAO >: \n");
+    printf("\nDeseja continuar cadastrando o Professor? < 1 - SIM > < 0 - NAO >: \n"); //ALUNOS OU PROFESSOR?
     scanf("%i", &aux);
 
     if (aux == 0)
