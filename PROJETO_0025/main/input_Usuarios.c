@@ -78,7 +78,7 @@ void Aluno(void)
     i++;
   }
   //atribuindo o tamanho de i para y para colocar na condicao do for
-  y = i;
+  y = i + 1;
 
   for (i = 0; i < y; i++)
   {
@@ -97,70 +97,74 @@ void Aluno(void)
     printf("\n%i", c[i].tel);
     printf("\n%i", c[i].matricula);
   }
-  //---------------------------------------- cadastro de professor----------------------------------------------------
+}
 
-  void Professor(void)
+//---------------------------------------- cadastro de professor----------------------------------------------------
+//---------------------------------------- cadastro de professor----------------------------------------------------
+
+void Professor(void)
+{
+  int i = 0, cont = 0, aux = 0, y = 0;
+  //chamando a estrutura
+  struct Professor p[3];
+
+  //pegando o input do usuario/professor
+  while (cont == 0)
   {
-    int i = 0, cont = 0, aux = 0, y = 0;
-    //chamando a estrutura
-    struct Professor p[3];
 
-    //pegando o input do usuario/professor
-    while (cont == 0)
+    printf("\n\n\nInsira o nome do %i Professor:\n", i + 1);
+    fflush(stdin);
+    gets(p[i].nome);
+
+    printf("\nInsira o CPF do Professor %s: \n", p[i].nome);
+    scanf("%i", &p[i].cpf);
+
+    printf("\nInsira o telefone do Professor %s: \n", p[i].nome);
+    scanf("%i", &p[i].tel);
+
+    printf("\nInsira o salario do Professor %s: \n", p[i].nome);
+    scanf("%f", &p[i].sal);
+
+    printf("\nInsira o ID do professor %s: \n", p[i].nome);
+    scanf("%i", &p[i].id);
+
+    printf("\nE por ultimo nos informe a data de nascimento do professor %s", p[i].nome);
+
+    printf("\nDia: ");
+    scanf("%i", &p[i].data.dia);
+
+    printf("\nMes: ");
+    scanf("%i", &p[i].data.mes);
+
+    printf("\nAno: ");
+    scanf("%i", &p[i].data.ano);
+
+    //pedindo o usuario se deseja continuar cadastrando
+    printf("\nDeseja continuar cadastrando o Professor? < 1 - SIM > < 0 - NAO >: \n");
+    scanf("%i", &aux);
+
+    if (aux == 0)
     {
-
-      printf("\n\n\nInsira o nome do %i Professor:\n", i + 1);
-      fflush(stdin);
-      gets(p[i].nome);
-
-      printf("\nInsira o CPF do Professor %s: \n", p[i].nome);
-      scanf("%i", &p[i].cpf);
-
-      printf("\nInsira o telefone do Professor %s: \n", p[i].nome);
-      scanf("%i", &p[i].tel);
-
-      printf("\nInsira o salario do Professor %s: \n", p[i].nome);
-      scanf("%f", &p[i].sal);
-
-      printf("\nInsira o ID do professor %s: \n", p[i].nome);
-      scanf("%i", &p[i].id);
-
-      printf("\nE por ultimo nos informe a data de nascimento do professor %s", p[i].nome);
-
-      printf("\nDia: ");
-      scanf("%i", &p[i].data.dia);
-
-      printf("\nMes: ");
-      scanf("%i", &p[i].data.mes);
-
-      printf("\nAno: ");
-      scanf("%i", &p[i].data.ano);
-
-      //pedindo o usuario se deseja continuar cadastrando
-      printf("\nDeseja continuar cadastrando os Alunos? < 1 - SIM > < 0 - NAO >: \n");
-      scanf("%i", &aux);
-
-      if (aux == 0)
-      {
-        break;
-      }
-
-      i++;
+      break;
     }
     //atribuindo o tamanho de i para y para colocar na condicao do for
-    y = i;
+    y = i + 1;
 
-    for (i = 0; i < y; i++)
-    {
+    i++;
+  }
+  //atribuindo o tamanho de i para y para colocar na condicao do for
+  y = i + 1;
 
-      //teste de funcionalidade
-      printf("\n%s", p[i].nome);
-      printf("\n%i", p[i].cpf);
-      printf("\n%i", p[i].data.dia);
-      printf("\n%i", p[i].data.mes);
-      printf("\n%i", p[i].data.ano);
-      printf("\n%i", p[i].tel);
-      printf("\n%.2f", p[i].sal);
-    }
+  for (i = 0; i < y; i++)
+  {
+
+    //teste de funcionalidade
+    printf("\n%s", p[i].nome);
+    printf("\n%i", p[i].cpf);
+    printf("\n%i", p[i].data.dia);
+    printf("\n%i", p[i].data.mes);
+    printf("\n%i", p[i].data.ano);
+    printf("\n%i", p[i].tel);
+    printf("\n%.2f", p[i].sal);
   }
 }
