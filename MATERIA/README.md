@@ -8,3 +8,4 @@
 
 - [Guia de Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown/#open)
 - [Wiki - C](https://pt.wikibooks.org/wiki/Programar_em_C)
+- [Colinha de Tags HTML](https://www.softwaretestinghelp.com/html-cheat-sheet/)
