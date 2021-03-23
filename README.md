@@ -12,6 +12,7 @@ Um repositório da turma 0025 com o intuito de compartilhar artigos relacionados
  - [__Professor__](https://github.com/3rdglaz/0025/tree/main/PROFESSOR)
    
    - [JAM](https://github.com/3rdglaz/0025/tree/main/PROFESSOR/JAM)
+   - [SEBASTIÃO](https://github.com/3rdglaz/0025/tree/main/PROFESSOR/SEBASTIAO)
  
  - [__Alunos__](https://github.com/3rdglaz/0025/tree/main/ALUNOS)
    
