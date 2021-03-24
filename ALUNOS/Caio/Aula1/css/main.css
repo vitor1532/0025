@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.envelop {
+  width: 80%;
+  margin: auto;
+}
+/*definições do cabeçalho
+primeiro defini a cor de fundo
+depois a posição, embora não saiba muita a diferença,
+e a altura.
+*/
+header {
+  /*linear-gradient((rgba(),rgba()),url();*/
+  background: url(background.jpg);
+  background-color: rgb(92, 90, 90);
+  position: relative;
+  height: 100vh;
+  background-size: 100%;
+}
+.navbar {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: whitesmoke;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  text-decoration: double;
+}
+.navbar li a:hover {
+  background: rgba(128, 128, 128, 0.37);
+  color: rgb(23, 24, 23);
+}
+.logo img {
+  width: 100px;
+  float: left;
+  padding-top: 1em;
+  height: auto;
+  margin: auto;
+  border-radius: 90%;
+}
+.logo img:hover {
+  background-color: rgba(128, 128, 128, 0.14);
+}
+body {
+  background-color: black;
+}
+.olho {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 35%;
+  text-align: center;
+}
+.olho h1 {
+  position: relative;
+}
+.olho h1:hover {
+  color: aliceblue;
+}
+.espaco {
+  color: aliceblue;
+  position: relative;
+  height: 3px;
+  text-align: center;
+  margin: 10% 30%;
+}
+.sobre {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(sobre.jpg);
+  position: relative;
+  height: 100vh;
+  background-size: 100%;
+}
+.sobre p {
+  position: relative;
+  text-align: center;
+  padding: 20%;
+  color: whitesmoke;
+  padding: 1em;
+  font-size: 1.2em;
+  text-decoration: double;
+  margin: 10%;
+}
